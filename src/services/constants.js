@@ -1,0 +1,1 @@
+export const OPENAI_DEFAULT_COMPLETION_MODEL_ID = "text-davinci-003";
