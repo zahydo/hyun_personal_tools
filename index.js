@@ -14,7 +14,7 @@ async function execute(funcName, params) {
             calculateLoss(params[0], params[1], params[2]);
             break;
         case 'openAI':
-            getAnswer(`Based on this quality Attribute: '${params[0]}', give me a list of the top 10 architectural tactics and patterns that can be used to achieve this quality attribute.`)
+            getAnswer(`Act as a software architect and based on this design decision: '${params[0]}', give me a list of the top 5 architectural patterns with their respective architectural tactics that can be used to complement this design decision. Response in the language of the design decision entered.`)
             break;
         default:
             console.error('Error: función no encontrada');

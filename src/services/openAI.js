@@ -1,5 +1,5 @@
 import { Configuration, OpenAIApi } from "openai";
-import { OPENAI_DEFAULT_COMPLETION_MODEL_ID } from "./constants";
+import { OPENAI_DEFAULT_COMPLETION_MODEL_ID } from "./constants.js";
 
 export async function getAnswer(prompt) {
     if (!!prompt && !!process.env.OPENAI_ORGANIZATION_ID && !!process.env.OPENAI_API_KEY) {
