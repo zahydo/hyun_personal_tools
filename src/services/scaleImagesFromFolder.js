@@ -3,7 +3,7 @@ import { lstatSync, readdirSync, mkdirSync } from 'fs';
 import { extname } from 'path'
 import sharp from 'sharp';
 
-const VALID_EXT_NAME_FOR_IMAGES = [".jpg", ".png"]
+const VALID_EXT_NAME_FOR_IMAGES = [".jpeg",".jpg", ".png", ".PNG", ".JPG", ".JPEG"]
 
 
 const getFileNamesByFolderName = (path) => {
